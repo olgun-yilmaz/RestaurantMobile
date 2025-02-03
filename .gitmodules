@@ -1,0 +1,3 @@
+[submodule "RestaurantMobileApp"]
+	path = RestaurantMobileApp
+	url = https://github.com/olgun-yilmaz/RestaurantMobileApp
