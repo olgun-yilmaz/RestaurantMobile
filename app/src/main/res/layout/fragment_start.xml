@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="350dp"
         android:backgroundTint="#64FCD9"
+        android:onClick="goToRestaurant"
         android:text="Restaurant"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,12 +21,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/restaurant_button2"
+        android:id="@+id/customer_button"
         android:layout_width="351dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="250dp"
         android:backgroundTint="#64FCD9"
+        android:onClick="goToCustomer"
         android:text="Customer"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"

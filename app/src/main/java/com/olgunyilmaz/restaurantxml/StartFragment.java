@@ -29,4 +29,12 @@ public class StartFragment extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_start, container, false);
     }
+
+    public void goToRestaurant(View view){
+
+    }
+
+    public void goToCustomer(View view){
+
+    }
 }

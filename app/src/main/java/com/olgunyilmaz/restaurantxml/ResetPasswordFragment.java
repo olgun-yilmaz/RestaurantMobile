@@ -8,12 +8,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class LoginFragment extends Fragment {
+
+public class ResetPasswordFragment extends Fragment {
 
 
-    public LoginFragment() {
+
+    public ResetPasswordFragment() {
         // Required empty public constructor
     }
+
 
 
     @Override
@@ -25,27 +28,10 @@ public class LoginFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_login, container, false);
+        return inflater.inflate(R.layout.fragment_reset_password, container, false);
     }
 
-    public void goToForgotPassword(View view){
+    public void submit(View view){
 
     }
-
-    public void login(View view){
-
-    }
-
-    public void goWithGoogle(View view){
-
-    }
-
-    public void goWithFacebook(View view){
-
-    }
-
-    public void register(View view){
-
-    }
-
 }
